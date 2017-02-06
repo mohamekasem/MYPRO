@@ -1,0 +1,28 @@
+{
+  "name": "pass-keeper",
+  "version": "1.0.0",
+  "description": "pass-keeper",
+  "main": "server.js",
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": "3.10.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.16.0",
+    "express": "4.14.1",
+    "express-session": "^1.15.0",
+    "foobar": "^1.1.0",
+    "mongoose": "^4.8.1",
+    "nodemon": "^1.11.0",
+    "npm-cli": "^0.1.0",
+    "parser": "^0.1.4"
+  },
+  "devDependencies": {}
+}
