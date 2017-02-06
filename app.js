@@ -21,7 +21,8 @@ var myApp = angular.module('myApp',[
       controller:'idsCT'
     })
      .when('/ida',{
-      templateUrl:'ida/id.html'
+      templateUrl:'ida/id.html',
+      controller:'idCT'
      })
     })
    
